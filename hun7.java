@@ -1,13 +1,11 @@
 import java.util.*;
-
-public class hun7 {
-
+class hun7 {
 	public static void main(String[] args) {
 		Scanner in=new Scanner(System.in);
 		int n=in.nextInt();
 		int[] a=new int[n];
 		System.out.println("enter the array values");
-    String s="";
+                String s="";
 		for(int i=0;i<n;i++){	a[i]=in.nextInt();
 		s=s.concat(String.valueOf(a[i]));}
 		for(String s1:s.split("")){
