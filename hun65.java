@@ -5,7 +5,8 @@ public static void main(String args[])
 {
 Scanner ss=new Scanner(System.in);
 String s=ss.nextLine();
-String rpl=s.replaceAll("10","");
+String c=ss.next();
+String rpl=s.replaceAll(c,"");
 System.out.print(rpl);
 }
 }
