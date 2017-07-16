@@ -14,15 +14,15 @@ class hun75
             {
                 if(j==al.size()-1)
                 {
-                    System.out.print("-1");
+                    System.out.print("-1"+" ");
                 }
                 else if(al.get(j)>al.get(j+1))
                 {
-                    System.out.print(al.get(j+1));
+                    System.out.print(al.get(j+1)+" ");
                 }
                 else if(al.get(j)<al.get(j+1))
                 {
-                System.out.print("-1");
+                System.out.print("-1"+" ");
                 }
             }
         }
